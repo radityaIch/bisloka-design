@@ -7,7 +7,7 @@
 						<div>
 							<!-- Website Logo -->
 							<a href="#" class="flex items-center py-4">
-								<img src="src/assets/logo.png" alt="Logo">
+								<img src="/src/assets/logo.png" alt="Logo">
 							</a>
 						</div>
 						<!-- Primary Navbar items -->

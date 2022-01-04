@@ -63,33 +63,33 @@ export default {
                 id: 1,
                 name: 'Margareth Carbell',
                 role: 'Product Designer, Taripedia',
-                image: './src/assets/images/cust-1.png',
+                image: '/src/assets/images/cust-1.png',
                 review: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. typesetting',
-                rating:  './src/assets/images/star-rating.svg'
+                rating:  '/src/assets/images/star-rating.svg'
             },
             {
                 id: 2,
                 name: 'Sergio Mariotelli',
                 role: 'Founder, Goprint',
-                image: './src/assets/images/cust-2.png',
+                image: '/src/assets/images/cust-2.png',
                 review: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. typesetting',
-                rating:  './src/assets/images/star-rating.svg'
+                rating:  '/src/assets/images/star-rating.svg'
             },
             {
                 id: 3,
                 name: 'John Workson',
                 role: 'College Student',
-                image: './src/assets/images/cust-3.png',
+                image: '/src/assets/images/cust-3.png',
                 review: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. typesetting',
-                rating:  './src/assets/images/star-rating.svg'
+                rating:  '/src/assets/images/star-rating.svg'
             },
             {
                 id: 4,
                 name: 'John Doe',
                 role: 'Hacker',
-                image: './src/assets/images/cust-2.png',
+                image: '/src/assets/images/cust-2.png',
                 review: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. typesetting',
-                rating:  './src/assets/images/star-rating.svg'
+                rating:  '/src/assets/images/star-rating.svg'
             },
         ]
         return {custList}

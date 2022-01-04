@@ -11,21 +11,21 @@
                     <div>
                         <span class="text-sm block mb-2">Departure</span>
                         <label class="card-menu inline">
-                            <span class="icon mr-2"><img :src="`./src/assets/images/location.png`"></span>
+                            <span class="icon mr-2"><img :src="`/src/assets/images/location.png`"></span>
                             Mau dijemput dimana ? 
                         </label>
                     </div>
                     <div>
                         <span class="text-sm block mb-2">Destination</span>
                         <label class="card-menu inline">
-                            <span class="icon mr-2"><img :src="`./src/assets/images/location.png`"></span>
+                            <span class="icon mr-2"><img :src="`/src/assets/images/location.png`"></span>
                             Mau dianter kemana ?
                         </label>
                     </div>
                     <div>
                         <span class="text-sm block mb-2">Jenis Bus</span>
                         <label class="card-menu inline">
-                            <span class="icon mr-2"><img :src="`./src/assets/images/bus-icon.png`"></span>
+                            <span class="icon mr-2"><img :src="`/src/assets/images/bus-icon.png`"></span>
                             Pilih jenis bus kamu
                         </label>
                     </div>

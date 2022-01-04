@@ -1,7 +1,7 @@
 <template>
     <section class="container mx-auto">
         <div class="dots-frame">
-            <img :src="`./src/assets/images/dots-blue.png`">
+            <img :src="`/src/assets/images/dots-blue.png`">
         </div>
         <div class="wrapper max-w-6xl mx-auto h-96 flex justify-between items-center">
             <div class="subscription-text flex flex-col w-7/12">

@@ -59,28 +59,28 @@ export default {
                 id: 1,
                 name: 'Jetbus 29 Seater Balideva Transport',
                 seat: '30',
-                image: './src/assets/images/item-bus-1.png',
+                image: '/src/assets/images/item-bus-1.png',
                 price: 'Rp. 2.500.000'
             },
             {
                 id: 2,
                 name: 'Toyota Coaster Seater Travelink Trans',
                 seat: '100',
-                image: './src/assets/images/item-bus-2.png',
+                image: '/src/assets/images/item-bus-2.png',
                 price: 'Rp. 5.200.000'
             },
             {
                 id: 3,
                 name: 'Tourista MD 35 Seater Balideva Transport',
                 seat: '35',
-                image: './src/assets/images/item-bus-3.png',
+                image: '/src/assets/images/item-bus-3.png',
                 price: 'Rp. 1.750.000'
             },
             {
                 id: 4,
                 name: 'Toyota Coaster Seater Travelink Trans II',
                 seat: '60',
-                image: './src/assets/images/item-bus-2.png',
+                image: '/src/assets/images/item-bus-2.png',
                 price: 'Rp. 4.200.000'
             },
         ]

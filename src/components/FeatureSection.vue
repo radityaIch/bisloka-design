@@ -11,7 +11,7 @@
                     <div class="feature-card rounded-xl shadow-lg mb-10 bg-white">
                         <div class="flex flex-col p-12">
                             <div class="mx-auto mb-5">
-                                <img class="h-44" :src="`./src/assets/images/walk-illust.svg`">
+                                <img class="h-44" :src="`/src/assets/images/walk-illust.svg`">
                             </div>
                             <div><h1 class="fc-title text-2xl mb-5 w-36">Dimana & Kapan Saja</h1></div>
                             <div><p class="fc-desc text-sm mb-3 leading-loose">Website yang responsive dapat dibuka diberbagai gadget anda akan mempermudah penyewaan bus</p></div>
@@ -20,7 +20,7 @@
                     <div class="feature-card rounded-xl shadow-lg mb-10 bg-white">
                         <div class="flex flex-col p-12">
                             <div class="mx-auto mb-5">
-                                <img class="h-44" :src="`./src/assets/images/cust-illust.svg`">
+                                <img class="h-44" :src="`/src/assets/images/cust-illust.svg`">
                             </div>
                             <div><h1 class="fc-title text-2xl mb-5 w-36">Customer Priority</h1></div>
                             <div><p class="fc-desc text-sm mb-3 leading-loose">Customer Service kami akan melayani anda disaat anda mengalami kesulitan di website kami.</p></div>
@@ -29,7 +29,7 @@
                     <div class="feature-card rounded-xl shadow-lg mb-10 bg-white">
                         <div class="flex flex-col p-12">
                             <div class="mx-auto mb-5">
-                                <img class="h-44" :src="`./src/assets/images/booking-illust.svg`">
+                                <img class="h-44" :src="`/src/assets/images/booking-illust.svg`">
                             </div>
                             <div><h1 class="fc-title text-2xl mb-5 w-36">Mudah Booking</h1></div>
                             <div><p class="fc-desc text-sm mb-3 leading-loose">Mudah booking dan konfirmasi ketersediaan unit yang akan digunakan.</p></div>

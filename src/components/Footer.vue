@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="dots-frame">
-            <img :src="`./src/assets/images/dots-blue.png`">
+            <img :src="`/src/assets/images/dots-blue.png`">
         </div>
     </footer>
 </template>
