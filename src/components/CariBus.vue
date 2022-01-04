@@ -1,7 +1,7 @@
 <template>
-    <section class="card-bus relative max-w-6xl mx-auto -mt-24 mb-28 z-20 shadow-xl">
-        <div class="container bg-white rounded-xl flex flex-col px-20 py-16">
-            <div class="card-title mb-5">
+    <section class="card-bus relative xl:max-w-6xl mx-auto -mt-24 mb-28 z-20 shadow-xl">
+        <div class="container bg-white mx-auto rounded-xl flex flex-col px-20 py-16">
+            <div class="card-title mb-5 text-center lg:text-left">
                 <h3 class="text-xl mb-1">Hey kamu,</h3>
                 <h1 class="text-3xl mb-5">Mau liburan kemana ?</h1>
             </div>

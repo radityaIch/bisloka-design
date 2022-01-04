@@ -1,7 +1,7 @@
 <template>
   <header>
       <nav class="bg-transparent fixed w-screen z-50" :class="{change_color_nav: (scrollPosition.value > 50)}">
-			<div class="max-w-6xl mx-auto py-8">
+			<div class="xl:max-w-6xl px-8 mx-auto py-8">
 				<div class="flex justify-between">
 					<div class="flex space-x-9">
 						<div>
@@ -11,7 +11,7 @@
 							</a>
 						</div>
 						<!-- Primary Navbar items -->
-						<div class="hidden md:flex items-center space-x-1">
+						<div class="hidden lg:flex items-center space-x-1">
 							<a href="" class="py-1 px-5 text-blue-400 font-medium ">Booking</a>
 							<a href="" class="py-1 px-5 text-gray-500 font-medium hover:text-blue-400 transition duration-300">List Bus</a>
 							<a href="" class="py-1 px-5 text-gray-500 font-medium hover:text-blue-400 transition duration-300">Blog</a>
@@ -19,7 +19,7 @@
 						</div>
 					</div>
 					<!-- Secondary Navbar items -->
-					<div class="hidden md:flex items-center space-x-3 ">
+					<div class="hidden lg:flex items-center space-x-3 ">
 						<a href="" class="secondary-item py-2 px-5 font-medium text-white rounded hover:bg-blue-400 hover:text-white transition duration-300">Sign In</a>
 						<a href="" class="secondary-item py-2 px-5 font-medium text-white hover:text-white border-2 border-white rounded hover:bg-blue-400 transition duration-300">Sign Up</a>
 					</div>

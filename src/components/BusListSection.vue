@@ -6,7 +6,7 @@
                     <h5 class="text-xs mb-6">ARMADA KAMI</h5>
                     <h1 class="text-5xl">Sesuaikan Dengan Keperluan Anda</h1>
                 </div>
-                <Carousel class="bus-list-item flex justify-between" :settings="settings" :breakpoints="breakpoints">
+                <Carousel class="bus-list-item flex lg:justify-center xl:justify-between" :settings="settings" :breakpoints="breakpoints">
                     <Slide v-for="bus in busList" :key="bus.id" >
                         <div class="bus-list-card rounded-xl shadow-lg mb-10 bg-white">
                             <div class="flex flex-col p-12">
@@ -96,15 +96,19 @@ export default {
         // any settings not specified will fallback to the carousel settings
         breakpoints: {
         // 700px and up
-            700: {
-                itemsToShow: 3,
+            768: {
+                itemsToShow: 2,
                 snapAlign: 'start',
             },
             // 1024 and up
             1024: {
-                itemsToShow: 3,
+                itemsToShow: 2,
                 snapAlign: 'start',
             },
+            1366: {
+                itemsToShow: 3,
+                snapAlign: 'start',
+            }
         },
     })
 }

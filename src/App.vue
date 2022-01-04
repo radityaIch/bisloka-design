@@ -73,6 +73,11 @@ export default {
     font-family: "AmsiProLight";
     color: rgb(22, 22, 22);
   }
+  @media (max-width: 1024px){
+    body{
+      overflow-x: hidden;
+    }
+  }
   .carousel__prev,
   .carousel__next {
     background-color:#fff;

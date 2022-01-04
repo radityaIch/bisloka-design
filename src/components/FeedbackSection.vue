@@ -3,13 +3,13 @@
         <div class="dots-frame">
             <img :src="`/src/assets/images/dots-blue.png`">
         </div>
-        <div class="wrapper relative mx-auto max-w-6xl">
+        <div class="wrapper relative mx-auto xl:max-w-6xl">
             <div class="container flex flex-col mx-auto">
-                <div class="feedback-title mb-32 mt-14">
+                <div class="feedback-title xl:mb-32 mb-24 mt-14 text-center xl:text-left">
                     <h5 class="text-xs mb-6">FEEDBACK CUSTOMER</h5>
                     <h1 class="text-5xl">Apa kata mereka tentang Bisloka ?</h1>
                 </div>
-                <Carousel class="feedback-item flex justify-between" :settings="settings" :breakpoints="breakpoints">
+                <Carousel :autoplay="2000" :wrap-around="true" class="feedback-item flex justify-between" :settings="settings" :breakpoints="breakpoints">
                     <Slide v-for="customer in custList" :key="customer.id">
                         <div class="p-12">
                             <div class="feedback-card rounded-xl shadow-lg mb-10 bg-white">
@@ -30,7 +30,9 @@
                         </div>
                     </Slide>
                     <template #addons>
-                        <Navigation />
+                        <div class="xl:hidden">
+                            <Navigation />
+                        </div>
                         <!-- <button type="button" @click="prev()" class="carousel__prev w-20 h-20 rounded-full bg-white shadow-lg mr-3" aria-label="Navigate to previous slide">
                             <img class="mx-auto" :src="`./src/assets/images/chevron-left.svg`">
                         </button>
@@ -104,15 +106,19 @@ export default {
         // any settings not specified will fallback to the carousel settings
         breakpoints: {
         // 700px and up
-            700: {
-                itemsToShow: 3,
+            768: {
+                itemsToShow: 2,
                 snapAlign: 'start',
             },
             // 1024 and up
             1024: {
-                itemsToShow: 3,
+                itemsToShow: 2,
                 snapAlign: 'start',
             },
+            1366: {
+                itemsToShow: 3,
+                snapAlign: 'start',
+            }
         },
     })
 }

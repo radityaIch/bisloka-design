@@ -3,17 +3,17 @@
         <div class="dots-frame">
             <img :src="`/src/assets/images/dots-blue.png`">
         </div>
-        <div class="wrapper max-w-6xl mx-auto h-96 flex justify-between items-center">
-            <div class="subscription-text flex flex-col w-7/12">
+        <div class="wrapper xl:p-0 p-12 max-w-6xl mx-auto xl:h-96 flex flex-col xl:flex-row justify-between items-center">
+            <div class="subscription-text flex flex-col xl:w-7/12 xl:text-left text-center">
                 <h1 class="text-5xl mb-6 leading-snug">Ayo pesan bus pariwisatamu sekarang !</h1>
-                <p class="text-md w-10/12 leading-loose">Booking bus untuk segala keperluan berpergian anda seperti perjalanan religi, kunjungan industri sampai rekreasi bersama orang-orang tercinta</p>
+                <p class="text-md xl:w-10/12 leading-loose xl:mb-0 mb-10">Booking bus untuk segala keperluan berpergian anda seperti perjalanan religi, kunjungan industri sampai rekreasi bersama orang-orang tercinta</p>
             </div>
 
-            <div class="subscription-form flex flex-col w-4/12">
+            <div class="subscription-form flex flex-col justify-between xl:w-4/12">
                 <form method="post">
-                    <input class="py-5 px-4 w-11/12 mb-5 rounded-xl" type="text" placeholder="Nama Lengkap">
-                    <input class="py-5 px-4 w-11/12 mb-5 rounded-xl" type="text" placeholder="Email">
-                    <button class="py-5 px-4 w-11/12 rounded-xl bg-blue-300 text-white">Subscribe</button>
+                    <input class="py-5 px-4 xl:m-0 m-3 xl:w-11/12 mb-5 rounded-xl" type="text" placeholder="Nama Lengkap">
+                    <input class="py-5 px-4 xl:m-0 m-3 xl:w-11/12 mb-5 rounded-xl" type="text" placeholder="Email">
+                    <button class="py-5 px-4 xl:m-0 m-3 xl:w-11/12 rounded-xl bg-blue-300 text-white">Subscribe</button>
                 </form>
             </div>
         </div>
@@ -31,7 +31,7 @@ export default {
         position: relative;
         background-color: rgba(59, 198, 233, 0.2);
         max-width: 1440px;
-        max-height: 450px;
+        
     }
     .dots-frame{
         position:absolute;

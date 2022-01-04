@@ -3,7 +3,7 @@
         <div class="square-background absolute left-0 h-5/6"></div>
         <div class="wrapper relative mx-auto max-w-6xl">
             <div class="container flex flex-col mx-auto">
-                <div class="feature-title mb-14 mt-14">
+                <div class="feature-title mb-14 mt-14 text-center xl:text-left">
                     <h5 class="text-xs mb-6">TENTANG KAMI</h5>
                     <h1 class="text-5xl">Mengapa Bisloka ?</h1>
                 </div>
