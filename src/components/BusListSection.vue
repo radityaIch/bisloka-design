@@ -15,7 +15,7 @@
                                 </div>
                                 <div class="mb-5 text-left">
                                     <span class="bg-white py-1 px-2 rounded-full shadow-lg">
-                                        <img class="inline" :src="`./src/assets/images/user-icon.png`">
+                                        <img class="inline" :src="`/src/assets/images/user-icon.png`">
                                     </span>
                                     <p class="inline text-sm ml-3">{{bus.seat}} Seats</p>
                                 </div>
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="dots-frame">
-            <img :src="`./src/assets/images/dots-blue.png`">
+            <img :src="`/src/assets/images/dots-blue.png`">
         </div>
     </section>
 </template>

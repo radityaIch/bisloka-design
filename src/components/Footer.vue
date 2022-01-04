@@ -11,13 +11,13 @@
 				<a href="" class="py-1 px-5 text-gray-500 font-medium hover:text-blue-400 transition duration-300">Sign Up</a>
             </div>
             <div class="socials w-auto">
-                <a href="" class="py-1 px-5 text-gray-500 font-medium hover:text-blue-400 transition duration-300"><img class="inline" :src="`./src/assets/images/ig-icon.svg`" alt=""></a>
-                <a href="" class="py-1 px-5 text-gray-500 font-medium hover:text-blue-400 transition duration-300"><img class="inline" :src="`./src/assets/images/bb-icon.svg`" alt=""></a>
-                <a href="" class="py-1 px-5 text-gray-500 font-medium hover:text-blue-400 transition duration-300"><img class="inline" :src="`./src/assets/images/be-icon.svg`" alt=""></a>
+                <a href="" class="py-1 px-5 text-gray-500 font-medium hover:text-blue-400 transition duration-300"><img class="inline" :src="`/src/assets/images/ig-icon.svg`" alt=""></a>
+                <a href="" class="py-1 px-5 text-gray-500 font-medium hover:text-blue-400 transition duration-300"><img class="inline" :src="`/src/assets/images/bb-icon.svg`" alt=""></a>
+                <a href="" class="py-1 px-5 text-gray-500 font-medium hover:text-blue-400 transition duration-300"><img class="inline" :src="`/src/assets/images/be-icon.svg`" alt=""></a>
             </div>
         </div>
         <div class="dots-frame">
-            <img :src="`/src/assets/images/dots-blue.png`">
+            <img :src="'/src/assets/images/dots-blue.png'">
         </div>
     </footer>
 </template>

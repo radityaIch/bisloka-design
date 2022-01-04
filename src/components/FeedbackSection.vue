@@ -1,7 +1,7 @@
 <template>
     <section class="feedback mx-auto mb-36">
         <div class="dots-frame">
-            <img :src="`./src/assets/images/dots-blue.png`">
+            <img :src="`/src/assets/images/dots-blue.png`">
         </div>
         <div class="wrapper relative mx-auto max-w-6xl">
             <div class="container flex flex-col mx-auto">
